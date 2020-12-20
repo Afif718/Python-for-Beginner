@@ -1,0 +1,21 @@
+
+basket = ["a","x","m","o","n","b","c","d","e","f"];
+
+basket.sort();
+basket.reverse();
+print(basket);
+
+print("\n")
+#generate any range of list.
+print(list(range(1,50)));
+
+print("\n")
+print(list(range(20,30))) #20 is the starting point and 30 is the end point
+
+#join
+
+#sentence = " ";
+print("\n")
+
+new_sen =" ".join(["hi", "my","name","is","Afif"]);
+print(new_sen);
