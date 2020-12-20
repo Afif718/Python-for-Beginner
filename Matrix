@@ -1,0 +1,9 @@
+matrix = [
+[1,2,3,4,5],
+[10,20,30,40],
+[1,2,3,4,5,6,7]
+]
+
+print(matrix);
+print(matrix[1] [2]); # it will print 30
+print(matrix[2][6]);
