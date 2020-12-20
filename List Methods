@@ -1,0 +1,48 @@
+basket = [1,2,3,4,5];
+print(len(basket)); #length of the array
+
+#Adding one element in an element 
+basket.append(50);
+new_basket = basket;
+print(new_basket);
+
+#copy the array
+basket.copy();
+new_bas = basket;
+print(new_bas);
+
+#insert element /Adds an element at the specified position
+basket.insert(2,400);
+new_in = basket;
+print(new_in);
+
+#Extend list
+basket.extend([150,180]);
+new_ex = basket;
+print(new_ex);
+
+#Remove an item from the list
+basket.pop() #it will remove the last element of the list or array
+print(basket);
+
+#again if we do pop
+basket.pop();
+print(basket);
+
+#remove element using index
+basket.pop(0); # it removed 1
+print(basket);
+#again
+basket.pop(1); #it removed 400
+print(basket);
+
+#pop use index and remove use list element
+
+basket.remove(50); # it will remove 50
+print(basket);
+basket.remove(4); # it will remove 4 ..they are not using index .. they are using element 
+print(basket)
+
+#clear method
+basket.clear(); # it will remove all the elements from the array
+print(basket);
