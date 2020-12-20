@@ -1,0 +1,16 @@
+basket = ["a", "b", "c", "d", "e","a","a"];
+
+print(basket.index("b")); #it will print the index of b
+print(basket.index("b",0,2)); # it will search for b from index 0 to 2
+print(basket.index("c",0,3)); #same like 
+
+#we can check if an element in the array or not?
+print("b" in basket); #we are asking like if the element in the array or not ?
+print("W" in basket);
+
+print("i" in "Hi my name is Afif") # is i in the text?
+print("jilapi" in " hi my name is jilapi")
+
+#count : it will count how many times the word in the text or in the array
+print(basket.count("a"));
+print(basket.count("b"));
