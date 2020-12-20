@@ -1,0 +1,42 @@
+user= {
+  "basket" : [1,2,3],
+  "greet" : "hello",
+  "age" : 20
+}
+
+# here we are asking if the basket or name is in the dictionary.
+
+print("basket" in user);
+print("name" in user);
+
+print("\n");
+
+#keys: it will check if the key is on the list or not.
+print("basket" in user.keys());
+print("jccwfwo" in user.keys());
+
+
+print("\n");
+#items
+print(user.items());
+
+print("\n");
+
+#copy and clear
+#user2 = user.copy();
+#print(user.clear());
+#print(user2);
+
+#pop 
+print(user.pop('age')) #it removed age from the dictionary
+print(user) #it removed age from the dictionary
+
+#there is also popitem();
+#user.popitem();
+
+
+print("\n");
+#upadte dictionary
+
+print(user.update({"age" : 40})); #we updated the age
+print(user)
