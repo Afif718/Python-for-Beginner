@@ -1,0 +1,79 @@
+first_name = "Afif";
+last_name = "Ahamed";
+
+full_name = first_name + " " + last_name;
+print(full_name);
+
+#print(type(int(str(100))));
+
+a = str(100);
+b= int(a);
+c= type(b);
+print(c)
+
+#Escape Sequence
+weather = "\t  It\'s \" kind of \"Sunny\n Hope u r ok ";
+
+print(weather);
+
+name = "Afif";
+age = 20;
+
+#print("Hi " +name + ". You are " +age + " years old");
+
+#formatted String 
+print(f" Hi {name}. You are {age} years old");
+
+#String indexes
+
+names = "me me me ";
+print(names[0]);
+
+#String indexes 
+selfish = "01234567";
+
+#[start: End]
+print(selfish[0:4])# it will start from 0 and will end at 4
+
+#[start: End : stepover]
+print(selfish[0:8:2])
+print(selfish[:5]);
+print(selfish[::1]);
+print(selfish[-1]); #starts from end
+print(selfish[-2]); # starts from end
+print(selfish [::-1]); # it will print everything from back
+print(selfish [::-2]); #it will print everything from back gap will be 2
+
+# Immutability
+
+#
+green = "Hellooooooooooo"
+print(len(green));
+print(green[0:15])
+
+#functions and Methods
+
+quote = "to be or not to be";
+
+#String Methods
+print(quote.upper());
+print(quote.capitalize());
+print(quote.lower());
+print(quote.find("or"));
+print(quote.replace("be","me"));
+
+#Booleans 
+print(bool(0));
+print(bool(1));
+
+#Exercise
+name= "Afif";
+age = 20;
+relationship_status = "Single";
+relationship_status = "it\'s complicated";
+print(relationship_status);
+print("\n")
+#Exercise
+birth_year = int(input("What year u were born? "));
+age_now = 2000 - birth_year;
+print("You age is  " + age);
