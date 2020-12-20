@@ -1,0 +1,44 @@
+#Dictionary: it can hold anything like string, numbers, booleans, lists/arrays.
+
+#Dictionary doesn't have index but arrays have it. and we can call any element in the list using index of that value.
+
+#we can use dictionaries in a list coz it can hold much information.
+
+dictionary = {
+  "a" : [1,2,3,4,5], #a is string & its a key ,holding values
+  "b" : "Hello I am Afif", #b is string & its a key 
+  "c" : True,
+}
+
+print(dictionary["a"]);
+print(dictionary["a"][4]);
+print(dictionary["b"])
+
+print("\n");
+
+#we are now using the dictionary in the list/array
+
+mylist = [
+
+{
+  "a" : [1,2,3], #a is string & its a key ,holding values
+  "b" : "Hello I am Afif", #b is string & its a key 
+  "c" : True,
+},
+
+{
+  "d" : [4,5,6], #d is string & its a key ,holding values
+  "e" : "Hello America", #e is string & its a key 
+  "f" : False,
+}
+
+]
+
+print(mylist[0]["a"][1]);
+print(mylist[0]["b"]);
+
+print("\n")
+print(mylist[1]["d"]);
+print(mylist[1]["d"][1]);
+print(mylist[1]["e"])
+print(mylist[1]["f"])
