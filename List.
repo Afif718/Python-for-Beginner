@@ -1,0 +1,16 @@
+li = [1,2,3,4];
+li1 = ["apple", "Afif", 1,2,3,4, True, False];
+li2 = ["books", "computer", "phone"];
+
+li1[2] = "cake";
+print(li2[0]);
+print(li1);
+print(li1[0:2]);
+print(li1[0::2]);
+print(li1[1:3]);
+print(li1);
+
+#list slicing
+neew = li2[:];
+neew[0] = "gum";
+print(neew)
