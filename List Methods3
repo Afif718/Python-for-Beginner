@@ -1,0 +1,20 @@
+muyas = ["a","x","y","s","p" ,"b","c","d","e"];
+
+#it is making the right sequence of the array
+print(muyas);
+muyas.sort();
+print(muyas);
+
+
+print(sorted(muyas));
+
+new_bas = muyas.copy();
+#new_bas.sort();
+print(new_bas)
+
+#reverse the array
+
+muyas.reverse();
+print(muyas); # it will start from y
+muyas.reverse();
+print(muyas); #it will start from a
