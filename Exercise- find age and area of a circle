@@ -1,0 +1,12 @@
+#Exercise
+birth_year = int(input("What year u were born?\n"));
+age_now = 2020 - int(birth_year);
+print(f"You are {age_now} years old")
+#print(age_now);
+
+#Area of a circle
+
+pi = 3.14;
+radius = float(input("\nInput the radius here: \n"));
+area = float(pi*radius*radius);
+print(f" Area of the circle is  {area}");
