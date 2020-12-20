@@ -1,0 +1,13 @@
+#dictionary keys can be string, numbers, and also booleans.
+#all the keys should be unique
+
+
+dictionary = {
+  10: [1,2,3],
+  "Hello" : "Hello dear",
+  True : "Yes its true"
+}
+
+print(dictionary[10])
+print(dictionary["Hello"])
+print(dictionary[True])
