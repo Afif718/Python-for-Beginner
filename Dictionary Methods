@@ -1,0 +1,18 @@
+
+#how to add elements in a dictionary
+
+user = {
+  "name" : "Muyas",
+  "Class" : 5,
+  "Age" : 15
+}
+
+print(user.get("Age", 12)); # its like a default value. 
+print(user["Class"])
+print(user)
+
+print("\n");
+
+#We can create dictionaries one more way
+user2 = dict(name= "Afif", age = 20, uni = "UCSI");
+print(user2); 
