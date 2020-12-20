@@ -1,0 +1,5 @@
+username = input("Input User-name: \n");
+password = input("Input Password here: \n")
+len = len(password);
+pas = len * "*";
+print(f"Hey {username}, Your password {pas} is {len} letters long");
